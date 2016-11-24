@@ -1,4 +1,8 @@
-var mot = prompt("Entrez un mot");
+word();
+
+function word()
+{
+  var mot = prompt("Entrez un mot");
 console.log(mot);
 
 // création du tableau :
@@ -44,4 +48,5 @@ if(mot == mot.split("").reverse().join("")){
   cells.innerHTML = "est un palindrome";
 }else{
   cells.innerHTML = "n'est pas un palindrome";
+}
 }
