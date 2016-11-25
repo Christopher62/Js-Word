@@ -35,7 +35,7 @@ for(i=0; i<mot.length; i++){
     {voy++}
   }
 }
-cells.innerHTML = "nombre de voyelle : " + voy + " <br/> nombre de consonne : " + (mot.length - voy);
+cells.innerHTML = "nombre de voyelle(s) : " + voy + " <br/> nombre de consonne(s) : " + (mot.length - voy);
 
 
 // création case 5 -- mot avec lettres inversées :
