@@ -50,4 +50,3 @@ if(mot == mot.split("").reverse().join("")){
   cells.innerHTML = "n'est pas un palindrome";
 }
 }
-// Com
